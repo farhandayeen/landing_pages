@@ -55,15 +55,15 @@ export function ProductShowcase() {
         </div>
         
         {/* Featured product */}
-        {activeCategory === 'all' && featuredProduct && (
+        {/*{activeCategory === 'all' && featuredProduct && (
           <div className="mb-8">
             <ProductCard product={featuredProduct} featured />
           </div>
-        )}
+        )} */}
         
         {/* Product grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {regularProducts.map((product) => (
+          {filteredProducts.map((product) => (
             <ProductCard key={product.id} product={product} />
           ))}
         </div>
