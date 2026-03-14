@@ -1,8 +1,8 @@
 import type { Product, CreatorProfile, Testimonial } from '@/types'
 
 export const creatorProfile: CreatorProfile = {
-  name: 'Alex Digital',
-  title: 'Digital Product Creator & Educator',
+  name: 'FARHAN ARIQ FEDAYEEN',
+  title: 'Digital Product & Creator',
   bio: 'Helping creators build and sell digital products. I\'ve helped 5,000+ students launch their own profitable digital businesses through comprehensive guides and templates.',
   avatar: '/creator-avatar.jpg',
   verified: true,
